@@ -161,7 +161,7 @@ def pregunta_01():
     X = df.copy()
 
     # Remueva la columna `default` del DataFrame `X`.
-    X.copy("default")
+    X.drop("default")
 
     # Retorne `X` y `y`
     return X, y
